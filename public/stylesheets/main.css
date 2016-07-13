@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.poroimage {
+  background-image: url("/images/poro.png");
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.top-poro {
+  margin: 0 100px 0 0;
+}
