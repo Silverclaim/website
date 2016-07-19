@@ -1,0 +1,8 @@
+= H1
+== H2
+
+This app is not made in rails
+
+to run locally
+<tt>npm install</tt>
+<tt>node app.js</tt>
