@@ -1,6 +1,22 @@
 body {
+  background-color: white;
+  color: teal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.side-nav {
+  width: 100px;
+  top: 0;
+  Bottom: 0;
   background-color: black;
-  color: white;
+  position: fixed;
+}
+
+.content {
+  padding-left: 115px;
+
 }
 
 .poroimage {
