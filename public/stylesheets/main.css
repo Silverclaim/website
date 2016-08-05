@@ -39,6 +39,7 @@ body {
 .mid-section .ms-sidebox {
   width: 100px;
   float: left;
+
 }
 
 .mid-section .ms-picbox {
@@ -46,7 +47,7 @@ body {
   border-radius: 8px;
   box-sizing: border-box;
   width: 400px;
-  float: left;
+  float: right;
 }
 
 .mid-section .ms-innerpicbox {
@@ -58,16 +59,5 @@ body {
   width: 100px;
   height: 100px;
   background-size: 100px 100px;
-}
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
-
-.top-poro {
-  margin: 0 100px 0 0;
+  margin: auto;
 }
