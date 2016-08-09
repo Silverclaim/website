@@ -28,11 +28,12 @@ body {
 .mid-section .ms-textbox {
   text-align: left;
   color: red;
-  display: inline-block;
+  margin: auto;
   width: 500px;
 }
 
 .mid-section .ms-contentbox {
+  padding: 10px 0;
 
 }
 
@@ -48,6 +49,7 @@ body {
   box-sizing: border-box;
   width: 400px;
   float: right;
+  padding: 5px;
 }
 
 .mid-section .ms-innerpicbox {
@@ -60,4 +62,21 @@ body {
   height: 629px;
   background-size: 629px 629px;
   margin: auto;
+}
+
+.mid-section .ms-image {
+  max-width: 390px;
+  margin: auto;
+  display: block;
+}
+
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
 }
